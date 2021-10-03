@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "charactergeneratorcyberpunk2020"
+version = "0.1.0"
+description = ""
+authors = ["Resinchen <alex1410alex@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.9.3"
+black = "^21.9b0"
+flake8 = "^3.9.2"
+flake8-awesome = "^1.3.0"
+mypy = "^0.910"
+
+[tool.isort]
+balanced_wrapping = true
+default_section = "THIRDPARTY"
+include_trailing_comma = true
+known_first_party = ["docker", "docs", "overhave", "tests", "demo"]
+line_length = 120
+multi_line_output = 3
+
+[tool.black]
+target-version = ['py38']
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
