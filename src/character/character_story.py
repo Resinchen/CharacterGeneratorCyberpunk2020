@@ -2,8 +2,8 @@ from typing import Optional
 
 from src.event import Event
 from src.family import Family
-from src.utils import Sex, roll_10
-
+from src.utils import roll_10
+from src.utils.human import Sex
 Wear = {
     1: "Байкерская кожа",
     2: "Джинсовый стиль",

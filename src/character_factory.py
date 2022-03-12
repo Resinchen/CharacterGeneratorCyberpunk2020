@@ -2,8 +2,8 @@ from src.character.character_story import CharacterStory, Fashion, National, Per
 from src.event import Event, EventType, RollToEvent
 from src.events import Fact, Friends, Romantic
 from src.family import Family
-from src.utils import Sex, roll_6, roll_10
-
+from src.utils import roll_6, roll_10
+from src.utils.human import Sex
 
 class CharacterFactory:
     @staticmethod

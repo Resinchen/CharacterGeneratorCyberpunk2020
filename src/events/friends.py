@@ -1,5 +1,5 @@
 from src.event import Event, EventType
-from src.utils import Sex
+from src.utils.human import Sex
 from src.utils.roll import is_odd_roll, roll_6, roll_10
 
 Friend = {

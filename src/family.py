@@ -1,5 +1,5 @@
-from src.utils import Sex, get_random_sex, roll_10, roll_great
-
+from src.utils import roll_10, roll_great
+from src.utils.human import Sex, get_random_sex
 AgeRelativeCharacter = {
     1: "старше тебя",
     2: "старше тебя",
